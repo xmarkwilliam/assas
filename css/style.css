@@ -138,16 +138,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 2;
 }
-.vid-bg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  
-}
+
 
 #header.header-scrolled, #header.header-inner {
   background: rgba(6, 12, 34, 0.98);
@@ -462,6 +455,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;}
 
+  
+    
+
 
 
 
@@ -484,10 +480,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-container {
   position: absolute;
-  bottom: 50%;
-  left: 50%;
-  top: 50%;
-  right: 40%;
+  bottom: 0%;
+  left: 0%;
+  top: 0%;
+  right: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
