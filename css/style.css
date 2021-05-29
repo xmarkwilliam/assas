@@ -449,9 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  top:0;
-  left: 0;
-  right:0;
+  z-index: -1;
  
   background-size: cover;
   overflow: hidden;
@@ -464,10 +462,32 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-@media (min-width: 1024px) {
+@media (min-aspect-ratio:16/9) {
   #hero {
     background-attachment: fixed;
+    width:100%;
+    height: auto;
+
   }
+  @media (max-aspect-ratio:16/9) {
+    #hero {
+      background-attachment: fixed;
+      width:auto;
+      height: 100%;
+  
+    }
+  }
+  
+  #hero:before {
+    content: "";
+    
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
 }
 
 #hero:before {
