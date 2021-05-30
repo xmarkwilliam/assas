@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #header.header-scrolled, #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(14, 14, 14, 14);
   height: 85px;
 }
 
@@ -157,8 +157,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo img {
   padding: 80;
-  margin: 0;
-  max-height: 100px;
+  margin: 10;
+  max-height: 85.5px;
   
 }
 
