@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #0f0f11;
 }
 
 .main-page {
@@ -1474,7 +1474,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #070808a6;
   padding: 60px 0 30px 0;
 }
 
