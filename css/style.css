@@ -1080,8 +1080,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   margin-bottom: 30px;
 }
 
@@ -1090,11 +1090,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #fdfdfd;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 250px;
+  background: rgb(255, 255, 255);
+  height: 190px;
 }
 
 #supporters .supporter-logo:hover img {
