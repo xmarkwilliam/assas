@@ -1076,7 +1076,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sponsors Section
 --------------------------------------------------------------*/
 #supporters {
-  padding: px 0;
+  padding: 100px;
 }
 
 #supporters .supporters-wrap {
@@ -1086,7 +1086,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #supporters .supporter-logo {
-  padding: 30px;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1625,7 +1625,7 @@ body {
     color: #000;
     overflow-x: hidden;
     height: 100%;
-    background-color: #977787;
+    
     background-repeat: no-repeat
 }
 
@@ -1636,7 +1636,7 @@ body {
 }
 
 .card2 {
-    margin: 230px 40px
+    margin: 10x 40px
 }
 
 .logo {
@@ -1791,3 +1791,30 @@ a {
         margin: 0px 15px
     }
 }
+input[type="checkbox" i]
+ {
+  background-color: initial;
+  cursor: default;
+  appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+input, textarea {
+  padding: 10px 12px 10px 12px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+   width: 2%; 
+  box-sizing: border-box;
+  color: #2C3E50;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 10rem!important;
+}
+
