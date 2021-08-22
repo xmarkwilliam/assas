@@ -1076,9 +1076,14 @@ h1, h2, h3, h4, h5, h6 {
 # Sponsors Section
 --------------------------------------------------------------*/
 #supporters {
-  padding: 100px;
+  padding: 18px;
+  max-width: 100%;
+
 }
 
+#img-mawi {max-width: 30%;
+
+}
 #supporters .supporters-wrap {
   border-top: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
@@ -1086,15 +1091,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #supporters .supporter-logo {
-  padding: 15px;
+  padding: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   border-right: 1px solid #ffffff;
   border-bottom: 1px solid #fdfdfd;
   overflow: hidden;
   background: rgb(255, 255, 255);
-  height: 190px;
+  height: 200px;
 }
 
 #supporters .supporter-logo:hover img {
