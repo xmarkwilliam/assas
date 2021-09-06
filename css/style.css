@@ -466,9 +466,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
+  bottom: 200px;
   left: 0;
-  top: 90px;
+  top: 0px;
   right: 0;
   display: flex;
   justify-content: center;
@@ -477,30 +477,100 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 0 15px;
 }
-
-@media (max-width: 991px) {
-  #hero .hero-container {
-    top: 70px;
-  }
+#hero .hero-container2 {
+  border-radius: 20px;
+  border-width: thick;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 450px;
+  right:1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+  box-shadow: tomato;
+  
 }
+
+  
+
+#hero .hero-container4 {
+  position: absolute;
+  max-width: 600px;
+
+  bottom:0px;
+  left: 0;
+  top: 350px;
+  right: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+  box-shadow: tomato;
+  
+}
+#hero .hero-container5 {
+  position: absolute;
+  max-width: 600px;
+
+  bottom:0px;
+  left: 100;
+  top: 300px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+  box-shadow: tomato;
+  
+}
+
+
+      
+  
 
 #hero h1 {
   color: #fff;
+  
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size:calc(10px + 5vw);
   font-weight: 600;
   text-transform: uppercase;
 }
+#hero h6 {
+  color: #fff;
+  font-family: "volkorn", sans-serif;
+  font-size: 2.3vw;
+  font-weight: 600px;
+  text-transform: uppercase;
+}
 
+#hero h6 span {
+  color: #f82249;
+}
 #hero h1 span {
   color: #f82249;
 }
-
-@media (max-width: 991px) {
-  #hero h1 {
-    font-size: 34px;
-  }
+#hero h5 {
+  color: #fff;
+  font-family: "volkorn", sans-serif;
+  font-size: 2vw;
+  font-weight: 600px;
+  text-transform: uppercase;
 }
+
+
+    
+  
+  
+
 
 #hero p {
   color: #ebebeb;
@@ -508,11 +578,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
-@media (max-width: 991px) {
-  #hero p {
-    font-size: 16px;
-  }
-}
+
+
+
+
 
 #hero .play-btn {
   width: 94px;
@@ -627,6 +696,11 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1, 1);
     opacity: 0;
   }
+
+
+
+
+
 }
 /*--------------------------------------------------------------
 # About Section
@@ -810,17 +884,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 100px;
 }
 
-@media (max-width: 991px) {
-  #schedule .nav-tabs a {
-    padding: 8px 60px;
-  }
-}
-
-@media (max-width: 767px) {
-  #schedule .nav-tabs a {
-    padding: 8px 50px;
-  }
-}
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
