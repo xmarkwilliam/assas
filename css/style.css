@@ -321,14 +321,8 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-  .navbar .dropdown .dropdown:hover > ul {
-    left: -100%;
-  }
-}
+
+
 
 /**
 * Mobile Navigation 
@@ -706,10 +700,6 @@ h1, h2, h3, h4, h5, h6 {
 {
   position: relative;
   width: 100%;
-  padding: 90px;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-gap: 30px;
   min-height: 200px;
 
 }
@@ -719,11 +709,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 
   background: #fff;
-  padding: 40px;
-  width: 98%;
+  
+  width: 100%;
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.8);
   border-radius: 20px;
-  height:98%;
+  height:auto
+  ;
 
   ;
 }
@@ -746,7 +737,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .graphBox{
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   height: auto;
 }
 #about:before {
