@@ -1,6 +1,6 @@
 const gtx = document.getElementById('Progress').getContext('2d');
 const Progress = new Chart(gtx, {
-    type: 'bar',
+    type: 'pie',
     data: {
         labels: ['ABU DHABI', 'DUBAI', 'SHARJAH', 'RAS AL KHAIMAH', 'AJMAN', 'UMM AL QUWAIN', 'FUJAIRAH'],
         datasets: [{
@@ -10,10 +10,10 @@ const Progress = new Chart(gtx, {
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 206, 86, 1)',
-                'rgba(75, 102, 192, 12)',
-                'rgba(125, 192, 192, )',
-                'rgba(155, 102, 224, 12)',
-                'rgba(255, 159, 64, 12)'
+                'rgba(75, 102, 192, 1)',
+                'rgba(125, 192, 192,1 )',
+                'rgba(155, 162, 82, 1)',
+                'rgba(255, 159, 64, 1)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
@@ -25,15 +25,11 @@ const Progress = new Chart(gtx, {
                 'rgba(255, 159, 64, 1)'
                 
             ],
-            borderWidth: 2
+            borderWidth: 1
         }]
     },
     options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
+       resposive: true,
     }
 });
 
