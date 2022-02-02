@@ -709,7 +709,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 90px;
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-gap: 30px;
+  grid-gap: 10px;
   min-height: 200px;
 
 }
