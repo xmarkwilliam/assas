@@ -720,10 +720,10 @@ h1, h2, h3, h4, h5, h6 {
 
   background: #fff;
   padding: 40px;
-  width: 98%;
+  width: 100%;
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.8);
   border-radius: 20px;
-  height:98%;
+  height:100%;
 
   ;
 }
@@ -746,7 +746,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .graphBox{
-  
+  grid-template-columns: auto;
   height: auto;
 }
 #about:before {
