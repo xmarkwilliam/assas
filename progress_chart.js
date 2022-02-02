@@ -2,7 +2,7 @@ const gtx = document.getElementById('Progress').getContext('2d');
 const Progress = new Chart(gtx, {
     type: 'bar',
     data: {
-        labels: ['ABU DHABI', 'DUBAI','AL AIN', 'SHARJAH', 'RAS AL KHAIMAH', 'AJMAN', 'UMM AL QUWAIN', 'FUJAIRAH'],
+        labels: ['ABU DHABI', 'DUBAI', 'SHARJAH', 'RAS AL KHAIMAH', 'AJMAN', 'UMM AL QUWAIN', 'FUJAIRAH'],
         datasets: [{
             label: 'PROJECTS ON SEVEN EMIRATES', 
             data: [80, 55, 99, 87, 45, 65,69,50,69],
